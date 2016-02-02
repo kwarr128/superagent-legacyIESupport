@@ -21,7 +21,7 @@
       return obj === Object(obj);
     }
 
-    function serializeObject(obj) {
+    function serialize(obj) {
         if (!isObject(obj)) return obj;
         var pairs = [];
         for (var key in obj) {
